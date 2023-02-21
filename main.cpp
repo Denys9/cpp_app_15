@@ -12,11 +12,12 @@ T* create_array(int size)
         cout << array[i] << '\t';
     }
     int oper;
-    cout << "\n\tEnter [ 1 | 2 ] ->";
+    cout << "\n\tenter [ 1 | 2 ] - ";
     cin >> oper;
     switch (oper)
     {
-    case 1: {
+    case 1: 
+    {
         for (size_t i = 0; i < size; i++)
         {
             if (array[i] % 2 != 0)
